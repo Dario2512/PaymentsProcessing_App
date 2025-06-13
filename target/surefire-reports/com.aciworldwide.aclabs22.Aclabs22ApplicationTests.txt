@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.aciworldwide.aclabs22.Aclabs22ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.998 s - in com.aciworldwide.aclabs22.Aclabs22ApplicationTests

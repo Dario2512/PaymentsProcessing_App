@@ -1,0 +1,47 @@
+2025-06-10 17:59:26.948  INFO 33064 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 33064 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-10 17:59:26.951 DEBUG 33064 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-10 17:59:26.951  INFO 33064 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-10 17:59:27.455 DEBUG 33064 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-10 17:59:28.611  INFO 33064 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.79 seconds (JVM running for 2.454)
+2025-06-10 18:02:08.851  INFO 33064 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-06-10 18:02:08.903  INFO 33064 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@1bd15625
+2025-06-10 18:02:10.343  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Starting anomaly detection for 29 transactions
+2025-06-10 18:02:10.344  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000; Suspicious time (23:00–06:00) with amount > 2000
+2025-06-10 18:02:10.344  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.344  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.344  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.344  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.345  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.345  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.345  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.345  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.345  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000; Suspicious time (23:00–06:00) with amount > 2000
+2025-06-10 18:02:10.345  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.345  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.346  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.346  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.346  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.346  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - More than 3 transactions in under 1 minute
+2025-06-10 18:02:10.346  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.346  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:02:10.346  INFO 33064 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detection finished, found 18 anomalies
+2025-06-10 18:10:04.717  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Starting anomaly detection for 29 transactions
+2025-06-10 18:10:04.719  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000; Suspicious time (23:00–06:00) with amount > 2000
+2025-06-10 18:10:04.719  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.720  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.720  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.720  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.720  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.720  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.720  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.720  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.721  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000; Suspicious time (23:00–06:00) with amount > 2000
+2025-06-10 18:10:04.721  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.721  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.721  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.721  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.721  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.721  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - More than 3 transactions in under 1 minute
+2025-06-10 18:10:04.722  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.722  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detected: 1234567812345670 - Large amount > 5000
+2025-06-10 18:10:04.722  INFO 33064 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detection finished, found 18 anomalies

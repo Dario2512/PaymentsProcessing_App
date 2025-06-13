@@ -1,0 +1,33 @@
+2025-05-27 11:59:52.558  INFO 3447 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 3447 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-27 11:59:52.561 DEBUG 3447 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-27 11:59:52.561  INFO 3447 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-27 11:59:53.024 DEBUG 3447 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-05-27 11:59:53.940  INFO 3447 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.51 seconds (JVM running for 1.964)
+2025-05-27 12:00:21.027  INFO 3447 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-27 12:00:21.418  WARN 3447 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.UserService : Invalid password for user: admin
+2025-05-27 12:00:28.250  INFO 3447 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-27 12:00:28.254  WARN 3447 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.services.UserService : Invalid password for user: admin
+2025-05-27 12:01:13.340  INFO 3447 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.controllers.RegisterController : Attempting to register user: Dario
+2025-05-27 12:01:20.837  INFO 3447 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.controllers.RegisterController : Attempting to register user: Dario25
+2025-05-27 12:01:20.842  INFO 3447 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.services.UserService : Registering user: UserRegisterDTO(name=Dario25, password=Dario2512!, confirmPassword=Dario2512!)
+2025-05-27 12:01:34.880  INFO 3447 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: dario with pwd dario
+2025-05-27 12:01:34.885  WARN 3447 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.UserService : Invalid password for user: dario
+2025-05-27 12:01:45.875  INFO 3447 --- [nio-8080-exec-6] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: Dario with pwd Dario2512!
+2025-05-27 12:01:45.879  WARN 3447 --- [nio-8080-exec-6] com.aciworldwide.aclabs22.services.UserService : Invalid password for user: Dario
+2025-05-27 12:03:00.891  INFO 3447 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.controllers.RegisterController : Attempting to register user: dario2
+2025-05-27 12:03:19.949  INFO 3447 --- [nio-8080-exec-8] com.aciworldwide.aclabs22.controllers.RegisterController : Attempting to register user: dario2
+2025-05-27 12:03:19.954  INFO 3447 --- [nio-8080-exec-8] com.aciworldwide.aclabs22.services.UserService : Registering user: UserRegisterDTO(name=dario2, password=Dario2512!, confirmPassword=Dario2512!)
+2025-05-27 12:04:17.962  INFO 3447 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: dario with pwd dario
+2025-05-27 12:04:17.966  WARN 3447 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.services.UserService : Invalid password for user: dario
+2025-05-27 12:05:25.489  INFO 3447 --- [io-8080-exec-10] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: dario with pwd dario
+2025-05-27 12:05:25.493  WARN 3447 --- [io-8080-exec-10] com.aciworldwide.aclabs22.services.UserService : Invalid password for user: dario
+2025-05-27 12:06:14.178  INFO 3447 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.controllers.RegisterController : Attempting to register user: ceva1111
+2025-05-27 12:06:14.183  INFO 3447 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.UserService : Registering user: UserRegisterDTO(name=ceva1111, password=Ceva1111!, confirmPassword=Ceva1111!)
+2025-05-27 12:16:13.010  INFO 3447 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.controllers.RegisterController : Attempting to register user: ceva1111
+2025-05-27 12:16:13.019  INFO 3447 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.services.UserService : Registering user: UserRegisterDTO(name=ceva1111, password=Ceva1111!, confirmPassword=Ceva1111!)
+2025-05-27 12:22:29.723  INFO 3447 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.controllers.RegisterController : Attempting to register user: ceva1111
+2025-05-27 12:22:29.729  INFO 3447 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.services.UserService : Registering user: UserRegisterDTO(name=ceva1111, password=Ceva1111!, confirmPassword=Ceva1111!)
+2025-05-27 12:28:15.463  INFO 3613 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : Starting Aclabs22ApplicationTests using Java 24 on Darios-MacBook-Pro.local with PID 3613 (started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-27 12:28:15.465 DEBUG 3613 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-27 12:28:15.465  INFO 3613 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : No active profile set, falling back to default profiles: default
+2025-05-27 12:28:16.926  INFO 3613 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : Started Aclabs22ApplicationTests in 1.559 seconds (JVM running for 2.109)

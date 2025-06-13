@@ -1,0 +1,95 @@
+2025-06-01 16:33:43.148  INFO 13021 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 13021 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 16:33:43.151 DEBUG 13021 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 16:33:43.151  INFO 13021 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 16:33:43.606 DEBUG 13021 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 16:33:44.377  INFO 13021 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.339 seconds (JVM running for 1.784)
+2025-06-01 16:33:58.367  INFO 13021 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-06-01 16:33:58.416  INFO 13021 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@6f44baa9
+2025-06-01 17:27:11.079  INFO 13783 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 13783 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 17:27:11.082 DEBUG 13783 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 17:27:11.082  INFO 13783 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 17:27:11.571 DEBUG 13783 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 17:27:12.333  INFO 13783 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.374 seconds (JVM running for 1.782)
+2025-06-01 17:55:17.995  INFO 14000 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14000 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 17:55:17.997 DEBUG 14000 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 17:55:17.998  INFO 14000 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 17:55:18.455 DEBUG 14000 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 17:55:19.251  INFO 14000 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.374 seconds (JVM running for 1.779)
+2025-06-01 17:56:32.890  INFO 14025 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14025 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 17:56:32.893 DEBUG 14025 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 17:56:32.893  INFO 14025 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 17:56:33.363 DEBUG 14025 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 17:56:34.157  INFO 14025 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.391 seconds (JVM running for 1.774)
+2025-06-01 17:57:02.327  INFO 14025 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.AnomalyService : CSV file written successfully with 13 transactions.
+2025-06-01 17:57:02.377  WARN 14025 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detection script exited with code 2
+2025-06-01 17:57:04.193  INFO 14025 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.services.AnomalyService : CSV file written successfully with 13 transactions.
+2025-06-01 17:57:04.208  WARN 14025 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detection script exited with code 2
+2025-06-01 18:04:24.694  INFO 14110 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14110 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 18:04:24.698 DEBUG 14110 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 18:04:24.698  INFO 14110 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 18:04:25.207 DEBUG 14110 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 18:04:26.000  INFO 14110 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.444 seconds (JVM running for 1.876)
+2025-06-01 18:04:32.533  INFO 14110 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.AnomalyService : CSV file written successfully with 13 transactions.
+2025-06-01 18:04:32.563  WARN 14110 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detection script exited with code 2
+2025-06-01 18:04:41.004  INFO 14110 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.services.AnomalyService : CSV file written successfully with 13 transactions.
+2025-06-01 18:04:41.018  WARN 14110 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.services.AnomalyService : Anomaly detection script exited with code 2
+2025-06-01 18:15:14.810  INFO 14188 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14188 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 18:15:14.813 DEBUG 14188 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 18:15:14.813  INFO 14188 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 18:15:15.330 DEBUG 14188 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 18:15:16.145  INFO 14188 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.445 seconds (JVM running for 1.849)
+2025-06-01 18:16:00.182  INFO 14206 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14206 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 18:16:00.184 DEBUG 14206 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 18:16:00.184  INFO 14206 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 18:16:00.674 DEBUG 14206 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 18:16:01.437  INFO 14206 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.382 seconds (JVM running for 1.801)
+2025-06-01 18:16:40.047 ERROR 14206 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.AnomalyService : Scriptul Python a returnat codul: 1
+2025-06-01 18:16:56.028 ERROR 14206 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.AnomalyService : Scriptul Python a returnat codul: 1
+2025-06-01 18:17:43.143  INFO 14249 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14249 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 18:17:43.147 DEBUG 14249 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 18:17:43.147  INFO 14249 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 18:17:43.692 DEBUG 14249 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 18:17:44.673  INFO 14249 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.665 seconds (JVM running for 2.095)
+2025-06-01 18:21:00.548  INFO 14280 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14280 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 18:21:00.551 DEBUG 14280 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 18:21:00.551  INFO 14280 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 18:21:01.104 DEBUG 14280 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 18:21:01.910  INFO 14280 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.477 seconds (JVM running for 1.884)
+2025-06-01 18:31:03.238 ERROR 14280 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.AnomalyService : Scriptul Python a returnat codul: 130
+2025-06-01 18:31:03.238 ERROR 14280 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.services.AnomalyService : Scriptul Python a returnat codul: 130
+2025-06-01 18:31:03.238 ERROR 14280 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.AnomalyService : Scriptul Python a returnat codul: 130
+2025-06-01 18:31:39.367  INFO 14394 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14394 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 18:31:39.370 DEBUG 14394 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 18:31:39.370  INFO 14394 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 18:31:39.838 DEBUG 14394 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 18:31:40.618  INFO 14394 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.376 seconds (JVM running for 1.774)
+2025-06-01 18:57:15.223  INFO 14671 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14671 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 18:57:15.226 DEBUG 14671 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 18:57:15.226  INFO 14671 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 18:57:15.682 DEBUG 14671 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 18:57:16.511  INFO 14671 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.405 seconds (JVM running for 2.07)
+2025-06-01 18:58:14.204  INFO 14671 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: dario with pwd dario
+2025-06-01 18:58:14.253  INFO 14671 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@5551cf21
+2025-06-01 19:11:31.428  INFO 14671 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: dario with pwd dario
+2025-06-01 19:11:31.440  INFO 14671 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@46353b3a
+2025-06-01 19:13:20.511  INFO 14908 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 14908 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-06-01 19:13:20.513 DEBUG 14908 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-06-01 19:13:20.513  INFO 14908 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-06-01 19:13:20.971 DEBUG 14908 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-06-01 19:13:21.802  INFO 14908 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.407 seconds (JVM running for 1.811)
+2025-06-01 19:13:31.613  INFO 14908 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd dada
+2025-06-01 19:13:31.653  INFO 14908 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.UserService : null
+2025-06-01 19:13:33.682  INFO 14908 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-06-01 19:13:33.695  INFO 14908 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@66c0149
+2025-06-01 19:14:44.305  INFO 14908 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=13000.0, timestamp=2025-06-01 19:14:44.298)
+2025-06-01 19:14:44.318  INFO 14908 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: DAILY_TX_SUM_WILL_BE_EXCEEDED and message: Daily transaction sum will be exceeded
+2025-06-01 19:14:44.338  INFO 14908 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3127
+2025-06-01 19:14:49.854  INFO 14908 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=1300.0, timestamp=2025-06-01 19:14:49.849)
+2025-06-01 19:14:49.857  INFO 14908 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: APPROVED and message: Transaction approved
+2025-06-01 19:14:49.867  INFO 14908 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3128
+2025-06-01 19:15:19.397  INFO 14908 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=13200.0, timestamp=2025-06-01 19:15:19.392)
+2025-06-01 19:15:19.406  INFO 14908 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: DAILY_TX_SUM_WILL_BE_EXCEEDED and message: Daily transaction sum will be exceeded
+2025-06-01 19:15:19.414  INFO 14908 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3129
+2025-06-01 19:16:12.551  INFO 14908 --- [io-8080-exec-10] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=50000.0, timestamp=2025-06-01 19:16:12.546)
+2025-06-01 19:16:12.557  INFO 14908 --- [io-8080-exec-10] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: APPROVED and message: Transaction approved
+2025-06-01 19:16:12.566  INFO 14908 --- [io-8080-exec-10] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3130

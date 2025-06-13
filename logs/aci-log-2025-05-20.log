@@ -1,0 +1,44 @@
+2025-05-20 15:17:17.412  INFO 29822 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 29822 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-20 15:17:17.417 DEBUG 29822 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-20 15:17:17.417  INFO 29822 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-20 15:17:17.928 DEBUG 29822 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-05-20 15:17:18.763  INFO 29822 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.477 seconds (JVM running for 1.91)
+2025-05-20 15:19:35.471  INFO 29871 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 29871 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-20 15:19:35.474 DEBUG 29871 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-20 15:19:35.474  INFO 29871 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-20 15:19:35.960 DEBUG 29871 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-05-20 15:19:36.805  INFO 29871 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 1.456 seconds (JVM running for 1.962)
+2025-05-20 15:19:52.208  INFO 29871 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: dario with pwd dario
+2025-05-20 15:19:52.258  INFO 29871 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@329768cf
+2025-05-20 15:20:31.826  INFO 29871 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234000000056789, amount=10.0, timestamp=2025-05-20 15:20:31.815)
+2025-05-20 15:20:31.836 ERROR 29871 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation failed with status: LUHN_ALGORITHM_FAILED and message: Card number failed on Luhn algorithm.
+2025-05-20 15:20:31.836 ERROR 29871 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.services.TransactionService : Transaction rejected by application. Bad Request: Card number failed on Luhn algorithm.
+2025-05-20 15:20:48.547  INFO 29871 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=10.0, timestamp=2025-05-20 15:20:48.54)
+2025-05-20 15:20:48.556  INFO 29871 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: APPROVED and message: Transaction approved
+2025-05-20 15:20:48.586  INFO 29871 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3119
+2025-05-20 15:22:14.041  INFO 29871 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-20 15:22:14.048  INFO 29871 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@cddfd8c
+2025-05-20 15:22:37.489  INFO 29871 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=133.0, timestamp=2025-05-20 15:22:37.484)
+2025-05-20 15:22:37.495  INFO 29871 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: DAILY_TX_LIMIT_EXCEEDED and message: Daily transaction limit exceeded
+2025-05-20 15:22:37.503  INFO 29871 --- [nio-8080-exec-2] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3120
+2025-05-20 15:22:44.204  INFO 29871 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=125.0, timestamp=2025-05-20 15:22:44.199)
+2025-05-20 15:22:44.208  INFO 29871 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: DAILY_TX_LIMIT_EXCEEDED and message: Daily transaction limit exceeded
+2025-05-20 15:22:44.217  INFO 29871 --- [nio-8080-exec-3] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3121
+2025-05-20 15:22:49.077  INFO 29871 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1234567812345670, amount=1.0, timestamp=2025-05-20 15:22:49.072)
+2025-05-20 15:22:49.081  INFO 29871 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: DAILY_TX_LIMIT_EXCEEDED and message: Daily transaction limit exceeded
+2025-05-20 15:22:49.091  INFO 29871 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3122
+2025-05-20 15:23:18.284  INFO 29871 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1111222233334444, amount=10.0, timestamp=2025-05-20 15:23:18.279)
+2025-05-20 15:23:18.289  INFO 29871 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: APPROVED and message: Transaction approved
+2025-05-20 15:23:18.298  INFO 29871 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3123
+2025-05-20 15:23:46.863  INFO 29871 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.controllers.TransactionController : Received transaction request: TransactionDTO(cardNumber=1111222233334444, amount=2000.0, timestamp=2025-05-20 15:23:46.858)
+2025-05-20 15:23:46.868  INFO 29871 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.helpers.ValidationHelper : Validation succeeded with status: APPROVED and message: Transaction approved
+2025-05-20 15:23:46.878  INFO 29871 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.services.TransactionService : Transaction saved: 3124
+2025-05-20 19:14:43.057  INFO 31231 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 31231 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-20 19:14:43.060 DEBUG 31231 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-20 19:14:43.060  INFO 31231 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-20 19:14:43.523 DEBUG 31231 --- [           main] com.aciworldwide.aclabs22.utils.JWTAuthenticationFilter : Filter 'JWTAuthenticationFilter' configured for use
+2025-05-20 19:14:49.143  INFO 31231 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 6.206 seconds (JVM running for 6.613)
+2025-05-20 19:15:10.325  INFO 31255 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : Starting Aclabs22ApplicationTests using Java 23.0.2 on Darios-MacBook-Pro.local with PID 31255 (started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-20 19:15:10.329 DEBUG 31255 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-20 19:15:10.329  INFO 31255 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : No active profile set, falling back to default profiles: default
+2025-05-20 19:15:14.320  INFO 31255 --- [           main] com.aciworldwide.aclabs22.Aclabs22ApplicationTests : Started Aclabs22ApplicationTests in 4.085 seconds (JVM running for 4.648)

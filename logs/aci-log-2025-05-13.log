@@ -1,0 +1,30 @@
+2025-05-13 18:54:42.441  INFO 11235 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 11235 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-13 18:54:42.444 DEBUG 11235 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-13 18:54:42.444  INFO 11235 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-13 18:55:18.443  INFO 11313 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 11313 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-13 18:55:18.446 DEBUG 11313 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-13 18:55:18.446  INFO 11313 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-13 18:56:21.299  INFO 11335 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 11335 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-13 18:56:21.303 DEBUG 11335 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-13 18:56:21.303  INFO 11335 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-13 18:56:32.425  INFO 11335 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 11.298 seconds (JVM running for 11.695)
+2025-05-13 18:57:22.891  INFO 11369 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Starting Aclabs22Application using Java 24 on Darios-MacBook-Pro.local with PID 11369 (/Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST/target/classes started by dariofriskan in /Users/dariofriskan/Documents/ACI-LigaACLabs2023-REST)
+2025-05-13 18:57:22.892 DEBUG 11369 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-05-13 18:57:22.893  INFO 11369 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : No active profile set, falling back to default profiles: default
+2025-05-13 18:57:34.038  INFO 11369 --- [           main] com.aciworldwide.aclabs22.Aclabs22Application : Started Aclabs22Application in 11.26 seconds (JVM running for 11.724)
+2025-05-13 19:08:27.562  INFO 11369 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:08:27.589  INFO 11369 --- [nio-8080-exec-4] com.aciworldwide.aclabs22.services.UserService : null
+2025-05-13 19:08:28.180  INFO 11369 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:08:28.183  INFO 11369 --- [nio-8080-exec-5] com.aciworldwide.aclabs22.services.UserService : null
+2025-05-13 19:08:29.491  INFO 11369 --- [nio-8080-exec-6] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:08:29.496  INFO 11369 --- [nio-8080-exec-6] com.aciworldwide.aclabs22.services.UserService : null
+2025-05-13 19:08:29.820  INFO 11369 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:08:29.824  INFO 11369 --- [nio-8080-exec-7] com.aciworldwide.aclabs22.services.UserService : null
+2025-05-13 19:08:32.070  INFO 11369 --- [nio-8080-exec-8] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:08:32.074  INFO 11369 --- [nio-8080-exec-8] com.aciworldwide.aclabs22.services.UserService : null
+2025-05-13 19:08:33.205  INFO 11369 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:08:33.208  INFO 11369 --- [nio-8080-exec-9] com.aciworldwide.aclabs22.services.UserService : null
+2025-05-13 19:09:25.931  INFO 11369 --- [io-8080-exec-10] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:09:25.940  INFO 11369 --- [io-8080-exec-10] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@7550987e
+2025-05-13 19:10:06.848  INFO 11369 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.controllers.LoginController : Processing login: admin with pwd admin
+2025-05-13 19:10:06.860  INFO 11369 --- [nio-8080-exec-1] com.aciworldwide.aclabs22.services.UserService : com.aciworldwide.aclabs22.entities.UserModel@224de499
