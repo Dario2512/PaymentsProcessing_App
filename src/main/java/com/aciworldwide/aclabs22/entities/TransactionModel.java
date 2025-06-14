@@ -25,11 +25,14 @@ public class TransactionModel {
     private Double amount;
     private Timestamp timestamp;
     private String returnCode;
+    @Column(name = "retried", nullable = false, columnDefinition = "BOOLEAN DEFAULT FALSE")
+    private boolean retried;
 
     public TransactionModel(TransactionDTO transactionDTO){
         this.amount = transactionDTO.getAmount();
         this.timestamp = transactionDTO.getTimestamp();
         this.cardNumber = transactionDTO.getCardNumber();
+        this.retried = false;
     }
 
 }

@@ -3,7 +3,8 @@ export interface TransactionModel {
     amount: number,
     cardNumber: string,
     returnCode: number,
-    timestamp: string
+    timestamp: string,
+    retried: boolean
 }
 export interface TransactionAddModel {
     cardNumber: string,

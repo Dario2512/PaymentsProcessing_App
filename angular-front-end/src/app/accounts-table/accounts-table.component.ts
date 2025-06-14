@@ -35,7 +35,8 @@ export class AccountsTableComponent {
     displayedColumnsAccounts: string[] =
         ['id', 'cardNumber', 'cardHolderName', 'amount', 'dailyTxLimit', 'dailyTxSumLimit', 'dailyTx', 'dailyTxSum'];
 
-    displayedColumnsTransactions: string[] = ['id', 'amount', 'cardNumber', 'returnCode', 'timestamp'];
+
+    displayedColumnsTransactions: string [] = ['id', 'amount', 'cardNumber', 'returnCode', 'timestamp', 'retry'];
 
     isAccountsSelected = false;
     isTransactionsSelected = false;
@@ -58,6 +59,10 @@ export class AccountsTableComponent {
 
         this.isTransactionsSelected = true;
         this.isAccountsSelected = false;
+    }
+
+    get displayedTransactionColumnsWithoutRetry() {
+        return this.displayedColumnsTransactions.filter(c => c !== 'retry');
     }
 
     showAccountsData() {
@@ -198,5 +203,19 @@ export class AccountsTableComponent {
         this.isTransactionsSelected = false;
         this.isTransactionsShowSelected = false;
         this.isCreateNewUserAccountSelected = true;
+    }
+
+    retryTransaction(transaction: TransactionModel) {
+        this.frontEndService.retryTransaction(transaction).subscribe({
+            next: (res) => {
+                console.log('Retry success:', res);
+                transaction.retried = true;
+
+            },
+            error: (err) => {
+                console.error('Retry failed:', err);
+                alert("Failed to retry transaction: " + err.error);
+            }
+        });
     }
 }

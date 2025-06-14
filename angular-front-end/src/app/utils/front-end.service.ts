@@ -1,10 +1,10 @@
-import { Injectable } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs";
-import { AccountModel } from "../models/account-model";
-import { TransactionAddModel } from "../models/transaction-model";
-import { UserModel } from "../models/user-model";
-import { ResponseCode } from "../interfaces/responseCode.enum";
+import {Injectable} from "@angular/core";
+import {HttpClient} from "@angular/common/http";
+import {Observable, switchMap} from "rxjs";
+import {AccountModel} from "../models/account-model";
+import {TransactionAddModel, TransactionModel} from "../models/transaction-model";
+import {UserModel} from "../models/user-model";
+import {ResponseCode} from "../interfaces/responseCode.enum";
 
 export interface AnomalyModel {
     cardNumber: string;
@@ -58,6 +58,26 @@ export class FrontEndService {
     addTransaction(transaction: TransactionAddModel): Observable<any> {
         return this._httpClient.post<any>('payments/', transaction);
     }
+
+    updateTransaction(transaction: TransactionModel): Observable<any> {
+        console.log('Calling PUT with URL:', `payments/${transaction.id}`);
+        console.log('Transaction object:', transaction);
+        return this._httpClient.put<any>(`payments/${transaction.id}`, transaction);
+    }
+
+    retryTransaction(transaction: TransactionModel): Observable<any> {
+        return this.updateTransaction(transaction).pipe(
+            switchMap(() => {
+                const retryDto = {
+                    cardNumber: transaction.cardNumber,
+                    amount: transaction.amount,
+                    timestamp: new Date().toISOString()
+                };
+                return this.addTransaction(retryDto);
+            })
+        );
+    }
+
 
     // Get anomalies for given transactions
     getAnomalies(transactions: TransactionAddModel[]): Observable<AnomalyModel[]> {

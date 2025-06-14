@@ -19,7 +19,7 @@ public class SecurityConfig {
         return http
                 .csrf().disable()
                 .authorizeRequests(auth -> auth
-                        .antMatchers("/login/**").permitAll()  // doar login e permis fara token
+                        .antMatchers("/accounts/**","/login/**", "/payments/**").permitAll()  // doar login e permis fara token
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
